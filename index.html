@@ -1,14 +1,413 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FlyMedia Technology Guides</title>
-  <meta name="robots" content="index, follow">
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1"
+>
+
+<title>
+FlyMedia Technology Guides | Articles & Resources
+</title>
+
+<meta
+  name="description"
+  content="Browse useful articles, guides and resources published across our informational websites."
+>
+
+<meta
+  name="robots"
+  content="index, follow"
+>
+
+<link
+  rel="canonical"
+  href="https://flymediatechnology2.github.io/"
+>
+
+<meta
+  property="og:type"
+  content="website"
+>
+
+<meta
+  property="og:title"
+  content="FlyMedia Technology Guides"
+>
+
+<meta
+  property="og:description"
+  content="Browse useful articles, guides and resources published across our informational websites."
+>
+
+<meta
+  property="og:url"
+  content="https://flymediatechnology2.github.io/"
+>
+
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 55px 20px;
+}
+
+.container {
+  width:
+    min(
+      1150px,
+      calc(100% - 30px)
+    );
+
+  margin: auto;
+}
+
+header h1 {
+  margin: 0 0 12px;
+  font-size: 42px;
+}
+
+header p {
+  margin: 0;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+main {
+  padding: 45px 0 70px;
+}
+
+section {
+  margin-bottom: 55px;
+}
+
+.section-title {
+  margin: 0 0 25px;
+  font-size: 28px;
+}
+
+.section-description {
+  color: #666;
+  margin-top: -15px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.site-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(
+        250px,
+        1fr
+      )
+    );
+
+  gap: 18px;
+}
+
+.site-card {
+  display: block;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  padding: 25px;
+  border-radius: 14px;
+
+  box-shadow:
+    0 5px 20px
+    rgba(0,0,0,.06);
+
+  transition:
+    transform .2s ease;
+}
+
+.site-card:hover {
+  transform: translateY(-3px);
+}
+
+.site-label {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.site-card h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.site-card p {
+  margin: 0;
+  color: #1769aa;
+  font-weight: 700;
+}
+
+.blog-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(
+        300px,
+        1fr
+      )
+    );
+
+  gap: 25px;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+
+  box-shadow:
+    0 5px 22px
+    rgba(0,0,0,.07);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 24px;
+}
+
+.site-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1769aa;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.blog-card h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.blog-card h2 a {
+  color: #222;
+  text-decoration: none;
+}
+
+.blog-card p {
+  color: #555;
+  line-height: 1.7;
+}
+
+.blog-meta {
+  font-size: 13px;
+  color: #888;
+  margin: 18px 0;
+}
+
+.read-more {
+  color: #1769aa;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.empty {
+  color: #777;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+footer {
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+  padding: 25px 20px;
+  color: #777;
+  text-align: center;
+}
+
+@media(max-width:700px) {
+
+  header {
+    padding: 35px 20px;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+}
+
+</style>
+
 </head>
 
+
 <body>
-  <h1>FlyMedia Technology Guides</h1>
-  <p>Articles, guides and useful resources.</p>
+
+
+<header>
+
+<div class="container">
+
+<h1>
+FlyMedia Technology Guides
+</h1>
+
+<p>
+Explore our websites, latest articles and useful informational resources.
+</p>
+
+</div>
+
+</header>
+
+
+<main>
+
+<div class="container">
+
+
+<section>
+
+<h2 class="section-title">
+Our Websites
+</h2>
+
+<p class="section-description">
+Browse all informational websites published through our GitHub Pages network.
+</p>
+
+<div class="site-grid">
+
+
+<a
+  class="site-card"
+  href="https://flymediatechnology2.github.io/khoya-machine-manufacturers-in-india/"
+>
+
+<div class="site-label">
+WEBSITE
+</div>
+
+<h2>
+Khoya Machine Manufacturers in India
+</h2>
+
+<p>
+View Website →
+</p>
+
+</a>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">
+Latest Articles
+</h2>
+
+<p class="section-description">
+New articles published across all websites automatically appear here.
+</p>
+
+<div class="blog-grid">
+
+
+<article class="blog-card">
+
+
+<img
+  src="https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/nkdairyequipments.com/wp-content/uploads/2026/05/banner-4-27.jpg"
+  alt="Small or Large Khoya Making Machine: How to Choose the Right Size For Your Dairy Business"
+  loading="lazy"
+>
+
+
+<div class="blog-content">
+
+<div class="site-name">
+Khoya Machine Manufacturers in India
+</div>
+
+<h2>
+
+<a
+  href="https://flymediatechnology2.github.io/khoya-machine-manufacturers-in-india/blog/small-or-large-khoya-making-machine-how-to-choose-the-right-size-for-your-dairy-business/"
+>
+
+Small or Large Khoya Making Machine: How to Choose the Right Size For Your Dairy Business
+
+</a>
+
+</h2>
+
+<p>
+Compare khoya machine sizes for small, medium and large dairy businesses and understand capacity, heating systems and key selection factors.
+</p>
+
+<div class="blog-meta">
+
+2026-10-06
+
+</div>
+
+<a
+  class="read-more"
+  href="https://flymediatechnology2.github.io/khoya-machine-manufacturers-in-india/blog/small-or-large-khoya-making-machine-how-to-choose-the-right-size-for-your-dairy-business/"
+>
+Read Article →
+</a>
+
+</div>
+
+</article>
+
+</div>
+
+</section>
+
+
+</div>
+
+</main>
+
+
+<footer>
+FlyMedia Technology Guides
+</footer>
+
+
 </body>
+
 </html>
